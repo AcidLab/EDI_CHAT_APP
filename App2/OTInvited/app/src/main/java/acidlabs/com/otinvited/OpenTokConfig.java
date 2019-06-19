@@ -1,0 +1,8 @@
+package acidlabs.com.otinvited;
+
+
+public class OpenTokConfig {
+    public static final String API_KEY = "46254462";
+    public static final String SESSION_ID = "2_MX40NjI1NDQ2Mn5-MTU0ODAzODQ5OTMzOH5NRi9wR0tZcFpHUkVKaDNDVnhKS2I4QTF-UH4";
+    public static final String TOKEN = "T1==cGFydG5lcl9pZD00NjI1NDQ2MiZzaWc9MmM3MzEzZWMyMzM5NDI3ZmE3ZDRkMmZkMDNjMjkwYmJkN2RjNzMyNTpzZXNzaW9uX2lkPTJfTVg0ME5qSTFORFEyTW41LU1UVTBPREF6T0RRNU9UTXpPSDVOUmk5d1IwdFpjRnBIVWtWS2FETkRWbmhLUzJJNFFURi1VSDQmY3JlYXRlX3RpbWU9MTU0ODAzODU1MSZyb2xlPXB1Ymxpc2hlciZub25jZT0xNTQ4MDM4NTUxLjg4NzUxMjIxNDIxMDk3";
+}

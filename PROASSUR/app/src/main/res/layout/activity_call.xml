@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/callView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/crop"
+        android:visibility="visible">
+
+        <ImageView
+            android:id="@+id/bg"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginTop="100dp"
+            android:src="@drawable/logo" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/bg"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="16dp"
+            android:text="Contact de l'opérateur en cours ..."
+            android:textAlignment="center"
+            android:textColor="#000"
+            android:textSize="18sp" />
+
+
+
+    </RelativeLayout>
+
+
+        <ImageView
+            android:id="@+id/mic"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:background="@drawable/endcall"
+            android:layout_marginBottom="50dp"
+            android:layout_weight="1"
+            android:layout_marginLeft="80dp"
+            android:layout_alignParentBottom="true"/>
+
+
+    <ImageView
+        android:id="@+id/end"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:background="@drawable/endcall"
+        android:layout_marginBottom="50dp"
+        android:layout_weight="1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="80dp"
+        android:layout_alignParentBottom="true"/>
+
+
+        <ImageView
+            android:id="@+id/swapCamera"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_weight="1"
+            android:layout_alignParentBottom="true"
+            android:layout_marginRight="80dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="50dp"
+            android:background="@drawable/endcall" />
+
+
+
+
+
+</RelativeLayout>

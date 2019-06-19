@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/pay"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:visibility="gone"
+    android:background="#CC303030">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="32dp"
+        android:layout_marginRight="32dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginBottom="60dp"
+        android:background="#fff">
+
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar_top"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:minHeight="?attr/actionBarSize"
+            android:background="@color/colorPrimary"
+            app:theme="@style/AppTheme" >
+
+
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/closeBtn"
+
+                android:src="@mipmap/ic_action_close"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:textColor="#fff"
+                android:layout_marginLeft="-32dp"
+                android:text="COTISIATION LIBRE"
+                android:textStyle="bold"
+                android:textSize="18sp"/>
+
+
+
+
+
+
+        </android.support.v7.widget.Toolbar>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_centerInParent="true">
+            
+            <EditText
+                android:layout_width="150dp"
+                android:layout_height="match_parent"
+                android:id="@+id/moneyEdit"
+                android:text="10"
+                android:inputType="numberDecimal"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:textSize="34sp"
+                android:drawableTint="#CC303030"
+                android:layout_centerInParent="true"/>
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                android:id="@+id/add"
+                android:src="@mipmap/ic_action_add"
+                android:tint="#303030"/>
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                android:id="@+id/remove"
+                android:src="@mipmap/ic_action_remove"
+                android:layout_alignParentRight="true"
+                android:tint="#303030"/>
+
+        </RelativeLayout>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_margin="32dp"
+            android:background="@drawable/button_bg"
+            android:text="Payer"
+            android:textColor="#fff"
+            android:layout_alignParentBottom="true"/>
+
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>

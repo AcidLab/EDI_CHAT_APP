@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@mipmap/ic_action_attach_money"
+        android:title="@string/title_balance" />
+
+    <item
+        android:id="@+id/navigation_dashboard"
+        android:icon="@mipmap/ic_action_account_balance_wallet"
+        android:title="@string/title_impayed" />
+
+    <item
+    android:id="@+id/navigation_notifications"
+    android:icon="@mipmap/ic_action_access_time"
+    android:title="@string/title_history" />
+
+    <item
+        android:id="@+id/navigation_contact"
+        android:icon="@mipmap/ic_action_local_phone"
+        android:title="@string/title_contact" />
+
+</menu>
